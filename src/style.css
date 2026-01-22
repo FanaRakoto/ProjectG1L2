@@ -4,13 +4,17 @@
   box-sizing: border-box;
   outline: none;
 }
-
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
 :root {
   --blue: #86a8d3;
   --blue1: #e6e6e6;
   --dark: #252525;
   --light: #ffffff;
   --danger: #ff3d3d;
+  --success: #309247;
 }
 
 @font-face {
@@ -39,6 +43,12 @@ a {
   font-family: 'geo';
 }
 
+.text-success {
+  color: var(--success);
+}
+.text-danger {
+  color: var(--danger);
+}
 
 
 .hero__section {
@@ -53,9 +63,14 @@ a {
   border-radius: 1.5rem;
   padding: 2rem;
   min-width: 50%;
+  max-width: 50%;
+  width: 50%;
 }
 .span_g1 {
   color: var(--danger);
+}
+.text-bold {
+  font-weight: bold;
 }
 
 table {
@@ -63,16 +78,21 @@ table {
   width: 100%;
 }
 td {
-  padding: 2px 5px;
+  padding: 6px 5px;
   background: #ffffff;
   font-family: 'chopin';
   font-weight: bold;
   border: 1px solid #8b8b8b;
   text-align: center;
+  letter-spacing: 1px;
 }
 .td__title {
   background: #8b8b8b;
   color: var(--light);
+}
+.td__nom {
+  transition: .5s;
+  background: var(--light);
 }
 h1 {
   display: flex;
@@ -85,4 +105,13 @@ h1 {
   background: linear-gradient(var(--danger), var(--light));
   margin-left: 10px;
   border-radius: 10px;
+}
+
+.annonce {
+  width: 100%;
+  margin: 20px auto;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 1rem;
+  border: 1px solid #8b8b8b;
 }
