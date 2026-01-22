@@ -7,3 +7,8 @@ export function setupCounter(element) {
   element.addEventListener('click', () => setCounter(counter + 1))
   setCounter(0)
 }
+
+const bonjour = () => {
+  console.log("Bonjour js pérsonalisée");
+}
+export default bonjour
