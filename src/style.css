@@ -7,6 +7,7 @@
 
 :root {
   --blue: #86a8d3;
+  --blue1: #e6e6e6;
   --dark: #252525;
   --light: #ffffff;
   --danger: #ff3d3d;
@@ -27,4 +28,61 @@
 
 a {
   font-family: 'chopin';
+}
+.chopin {
+  font-family: 'chopin';
+}
+.along {
+  font-family: 'along';
+}
+.geo {
+  font-family: 'geo';
+}
+
+
+
+.hero__section {
+  background: radial-gradient(#fff, #7a7a7a);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero__section .center {
+  background: white;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  min-width: 50%;
+}
+.span_g1 {
+  color: var(--danger);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  padding: 2px 5px;
+  background: #ffffff;
+  font-family: 'chopin';
+  font-weight: bold;
+  border: 1px solid #8b8b8b;
+  text-align: center;
+}
+.td__title {
+  background: #8b8b8b;
+  color: var(--light);
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.hr {
+  padding: 4px 0;
+  width: 4cm;
+  background: linear-gradient(var(--danger), var(--light));
+  margin-left: 10px;
+  border-radius: 10px;
 }
