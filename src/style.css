@@ -174,14 +174,15 @@ body{
   font-weight: bold;
   font-family: 'chopin';
   font-size: 1.5em;
+  margin-top: 30px;
 }
 .grand__titre_home {
   font-weight: bolder;
   font-size: 2em;
   font-family: 'chopin';
-  line-height: 2.5cm;
+  line-height: 2cm;
   color: var(--light);
-  padding: 0;
+  margin-bottom: 70px;
 
 }
 .grand__titre_home span {
