@@ -8,7 +8,6 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
 
-<<<<<<< HEAD
 :root {
   --blue: #86a8d3;
   --dark: #4e4e4e;
@@ -19,7 +18,6 @@ body{
   background-color: rgb(0, 0, 0) ;
   overflow-x: hidden;
 }
-=======
 }
 :root {
   --dark: #181a1e;
@@ -72,7 +70,6 @@ body{
   background: var();
 }
 
->>>>>>> 2939cdbf28e5fa5b9d566ee32b00c68e84725afc
 
 @font-face {
   font-family: 'along';
@@ -87,13 +84,18 @@ body{
   src: url(./../public/assets/fonts/GeosansLight.ttf);
 }
 
-<<<<<<< HEAD
 .navBar a {
   font-family: 'chopin';
 }
+
+
+.mini_description__titre {
+  line-height: .7cm;
+  font-family: 'chopin';
+}
 .nav{
-  width: 100vw;
-  height: 80px;
+  width: 100%;
+  height: fit-content;
    display: flex;
   justify-content: center;
   align-items: center;
@@ -102,15 +104,14 @@ body{
   font-size: 50px;
 }
 .navBar{
-  border: 1px solid rgba(163, 163, 163, 0.205);
+  border: 1px solid #a3a3a334;
   border-radius: 20px;
   color: white;
-  background-color: rgba(31, 31, 31, 0.767);
-  margin-left: 1%;
+  background-color: #00000009;
   height: 80px;
   width: 95%;
   font-size: 14px;
-  margin-top: 100px;
+  margin-top: 30px;
   padding: 40px;
   display: flex;
   justify-content: space-between;
@@ -132,26 +133,27 @@ body{
     color: white;
 }
 .navBar li a:hover{
-  color: orange;
+  color: var(--danger);
 }
 
 .navBar button{
   cursor: pointer;
-  background-color: orange;
+  background-color: var(--danger);
   padding: 15px 50px;
   border: none;
   color: white;
   border-radius: 10px;
   transition: 1s;
+  font-size: 1em;
 }
 .navBar button:hover{
   background-color: transparent;
-  border: 1px solid orange;
-  color: orange;
-=======
+  border: 1px solid var(--danger);
+  color: var(--danger);
+}
 #home {
   width: 100%;
-  height: fit-content;
+  height: 100vh;
   background-image: url(./../public/assets/img/bg_home.jpg);
   color: var(--light);
   overflow: hidden;
@@ -164,8 +166,9 @@ body{
 }
 
 .box__home {
-  margin-bottom: 1.5cm;
+  margin-bottom: 1cm;
 }
+
 .intro-titre {
   color: var(--danger);
   font-weight: bold;
@@ -215,14 +218,11 @@ body{
 .div_btn_home button:hover {
   background: #f5f5dc00;
   color: var(--danger);
->>>>>>> 2939cdbf28e5fa5b9d566ee32b00c68e84725afc
 }
 
 
 
 
-<<<<<<< HEAD
-=======
 .profile_home {
   margin-left: 2cm;
   width: fit-content;
@@ -245,7 +245,11 @@ body{
 
 
 
-
+#text-home {
+  display: block;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
 .text__homme {
   width: 55%;
 }
@@ -265,4 +269,3 @@ body{
     transform: translate(1em,0em);
   }
 }
->>>>>>> 2939cdbf28e5fa5b9d566ee32b00c68e84725afc
