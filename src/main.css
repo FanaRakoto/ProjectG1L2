@@ -35,6 +35,34 @@ ul {list-style: none;}
     font-family: 'chopin';
     src: url('./../public/assets/fonts/Chopin-Light.ttf');
 }
+
+@keyframes anim-logo {
+  0% {
+    transform: translateY(-2px) rotate(-10deg);
+    color: #ffffff;
+  }
+
+  25% {
+    transform: translateY(0px) rotate(0deg);
+    color: orange;
+  }
+
+  50% {
+    transform: translateY(-2px) rotate(10deg);
+    color: #e6d435;
+  }
+
+  75% {
+    transform: translateY(2px) rotate(00deg);
+    color: #00ffea;
+  }
+
+  100% {
+    transform: translateY(-2px) rotate(-10deg);
+    color: white;
+  }
+}
+
 .font-chopin {font-family: 'chopin';}
 .disabled {display: none;}
 .enabled {display: block;}
