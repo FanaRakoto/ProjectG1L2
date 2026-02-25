@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+.auto{margin: auto;}
+
+.row{display: flex;}
+.bg-danger {background: #e24e4e;}
+.align-start {align-items: start;}
+.align-center {align-items: center;}
+.align-end {align-items: end;}
+.justify-start {justify-content: start;}
+.justify-center {justify-content: center;}
+.justify-end {justify-content: end;}
+.justify-around {justify-content: space-around;}
+.justify-evenly {justify-content: space-evenly;}
+.justify-between {justify-content: space-between;}
+.text-center {text-align: center;}
+.text-start {text-align: start;}
+.text-end {text-align: end;}
+.w-full {width: 100%;}
+a {text-decoration: none;}
+ul {list-style: none;}
+.w-content {width:fit-content;}
+.container {margin: auto; width: 80%;}
+@font-face {
+    font-family: 'chopin';
+    src: url('./../public/assets/fonts/Chopin-Light.ttf');
+}
+.font-chopin {font-family: 'chopin';}
+.disabled {display: none;}
+.enabled {display: block;}
+
+:root {
+  --bg-dark: #292e2b;
+}
